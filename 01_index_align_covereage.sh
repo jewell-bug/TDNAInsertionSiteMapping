@@ -42,3 +42,7 @@ bwa-mem2 mem -t 7 -R ${RG} ${INDEX} ${SAMPDIR}/${SAMPLE}_R1_001-fastp.fastq.gz $
 
 # index alignment file
 samtools index ${OUTDIR}/${SAMPLE}.bam
+
+
+##coverage 
+samtools coverage bwa_align_wt_tdna/B7_combined.bam
