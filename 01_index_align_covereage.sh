@@ -1,3 +1,4 @@
+#!/bin/bash 
 module load bwa-mem2/2.1
 module load bwa-mem2/2.1
 module load samblaster/0.1.24
