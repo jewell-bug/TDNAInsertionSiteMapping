@@ -1,3 +1,4 @@
+#!/bin/bash 
 # 1. Load the = software modules
 module load samtools/1.19
 module load bedtools/2.31.1
